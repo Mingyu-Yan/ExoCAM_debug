@@ -1,0 +1,13 @@
+1.
+初次运行 continue_run未关闭：报错 CESM121_run/ExoCAMv1/run/rpointer.drv not found，模式运行一分钟
+解决方法：
+ExoCAM-learning/env_run.xml设置 id="CONTINUE_RUN"   value="FALSE"
+"RESUBMIT"   value="1"
+2.
+0OHT:
+user_docn.streams.txt.som
+<filePath>
+          /ExoCAM-20.06.17/ExoCAM/cesm1.2.1/initial_files/cam4_mixed_fv
+         </filePath>
+         <fileNames>
+            pop_frc.gx3v7.110128_0OHT.nc
